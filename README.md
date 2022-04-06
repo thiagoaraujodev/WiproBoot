@@ -61,7 +61,7 @@ Este treinamento tem como foco principal capacitar o aluno na linguagem de Back-
 
 Até o momento todas as atividades estão sendo reproduzidas sobre o console da IDE e para rodar a aplicação faça um clone do projeto e abra na sua plataforma de preferência que tenha suporte ao Java.
 
-✅ [Scrum](../scrum/README.md)
+✅ [Scrum](../../tree/main/src/aula_scrum/)
 
 ⬜ Em desenvolvimento...
 
