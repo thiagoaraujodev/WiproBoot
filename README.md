@@ -1,10 +1,3 @@
-<!-- VARS -->
-[license-url]:https://github.com/thiagoaraujodev/WiproBoot/blob/main/LICENSE
-[java-url]: https://www.oracle.com/java/
-[eclipse-url]: https://www.eclipse.org/
-[spring-url]: https://spring.io/
-<!-- VARS -->
-
 <div style="display: inline_block" align="center">
   <br>
   <img align="center" alt="Logo Wipro" title="Wipro" height="200"  width="300" src=".github/wipro_logo.png">
@@ -17,7 +10,7 @@
 
 <p align="center">
   <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-cronograma">Cronograma</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-atividades">Atividades</a>
 </p>
 
@@ -36,11 +29,12 @@ Atendendo mais de 1500 clientes globais através de um portfólio diverso e comp
 
 <br>
 
-## 🚀 Tecnologias
+## 🚀 Cronograma
 
 Este treinamento tem como foco principal capacitar o aluno na linguagem de Back-end em Java 11 e terá como conteúdo:
 
-- Introdução ao Java - 1h
+- Metodologia Scrum - 1h
+- Introdução ao Java - 2h
 - Introdução ao Git - 1h
 - Lógica de programação em Java - 2h
 - Orientação a objetos - 16h
@@ -59,7 +53,7 @@ Este treinamento tem como foco principal capacitar o aluno na linguagem de Back-
 - JPA - 4h
 - NoSQL - 1h30
 - Soft Skills - 5h
-- Mentoria - dúvidas - 10h
+- Mentoria - dúvidas - 8h
 
 <br>
 
@@ -67,7 +61,13 @@ Este treinamento tem como foco principal capacitar o aluno na linguagem de Back-
 
 Até o momento todas as atividades estão sendo reproduzidas sobre o console da IDE e para rodar a aplicação faça um clone do projeto e abra na sua plataforma de preferência que tenha suporte ao Java.
 
-#### Clone
+✅ [Scrum](../scrum/README.md)
+
+⬜ Em desenvolvimento...
+
+<br>
+
+## ⚙️ Como inicializar a aplicação
 
 ```ps
 # Clone o repositorio utilizando o git
@@ -76,13 +76,20 @@ $ git clone https://github.com/thiagoaraujodev/WiproBoot.git
 # Acesse a pasta do projeto
 $ cd WiproBoot
 ```
+<br>
 
-#### Requirementos
+Para inicializar é muito simples:
+1. Faça um clone do repositorio como no exemplo.
+2. Em seguida abra a IDE Java de sua preferência.
+3. Acesse a pasta do projeto.
+4. Execute a aplicação.
 
-- [Java 11][java-url]
-- [Eclipse][eclipse-url]
-- [Spring][spring-url]
+Neste projeto foi utilizado:
 
-### License 📝
+- [Java 11](https://www.oracle.com/java/)
+- [Eclipse](https://www.eclipse.org/)
 
-Este projeto está sob a licença do MIT. Consulte [LICENSE][license-url] para obter mais informações.
+
+### 📝 License 
+
+Este projeto está sob a licença do MIT. Consulte a [LICENSE](https://github.com/thiagoaraujodev/WiproBoot/blob/main/LICENSE) para obter mais informações.
