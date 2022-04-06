@@ -11,8 +11,7 @@ public class Variaveis {
 		idade = 30;
 		
 		final String nome = "Jonathan"; //constante
-		
-		
+				
 		char letra = 'a'; // apenas 1 caractere entra aspas simples
 		
 		//double altura = 1.66;
@@ -47,8 +46,8 @@ public class Variaveis {
 		//System.out.printf(); - Especifica o formato da entrada
 		
 		java.lang.System.out.print("Linha 1\nLinha 2\n"); // posiciona cursor na nova linha
-		System.out.print("Linha 3 \t Linha 4 \n"); // Tabulação	horizontal. 
-		System.out.print("Linha 5 \r Linha 6 \n"); // Posiciona o cursor da tela no início da linha atual - não avança para a próxima linha. . 
+		System.out.print("Linha 3 \t Linha 4 \n"); // TabulaÃ§Ã£o	horizontal. 
+		System.out.print("Linha 5 \r Linha 6 \n"); // Posiciona o cursor da tela no inï¿½cio da linha atual - nï¿½o avanï¿½a para a prï¿½xima linha. . 
 		System.out.print("Linha 7 \\ \\ \n"); // Barras invertidas. 
 		System.out.print("\"Linha 8\" \n"); // Aspas duplas.
 		
@@ -64,7 +63,7 @@ public class Variaveis {
 		System.out.printf(Locale.US, "%,2f %n", 1000.0);
 		System.out.printf(Locale.ITALY, "%,2f %n", 10000.0);
 		
-		System.out.printf("'%1.2f'%n", 40000.321); // largura do nosso número como 1 e comprimento da parte decimal é 2;
+		System.out.printf("'%1.2f'%n", 40000.321); // largura do nosso nÃºmero como 1 e comprimento da parte decimal Ã© 2;
 		
 		// Tipos de dados por referencia
 		
@@ -85,3 +84,4 @@ public class Variaveis {
 	}
 
 }
+

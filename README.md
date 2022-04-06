@@ -34,9 +34,9 @@ Atendendo mais de 1500 clientes globais através de um portfólio diverso e comp
 Este treinamento tem como foco principal capacitar o aluno na linguagem de Back-end em Java 11 e terá como conteúdo:
 
 - Metodologia Scrum - 1h
+- Lógica de programação - 2h
 - Introdução ao Java - 2h
 - Introdução ao Git - 1h
-- Lógica de programação em Java - 2h
 - Orientação a objetos - 16h
 - Encapsulamento - 8h
 - Operadores - 8h
@@ -61,7 +61,9 @@ Este treinamento tem como foco principal capacitar o aluno na linguagem de Back-
 
 Até o momento todas as atividades estão sendo reproduzidas sobre o console da IDE e para rodar a aplicação faça um clone do projeto e abra na sua plataforma de preferência que tenha suporte ao Java.
 
-✅ [Scrum](../../tree/main/src/aula_scrum/)
+✅ [Aula Scrum](../../tree/main/src/aula_scrum/)
+
+✅ [Aula Java - História da Linguagem](../../tree/main/src/aula_historia_java/)
 
 ⬜ Em desenvolvimento...
 

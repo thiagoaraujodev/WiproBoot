@@ -4,15 +4,15 @@ public class ControleDeFluxo {
 
 	public static void main(String[] args) {
 		
-		//operadores aritméticos
+//		operadores aritmï¿½ticos
 //		+
 //		-
 //		*
 //		/
-//		% operador de módulo (ou resto da divisão)
+//		% operador de  mÃ³dulo (ou resto da divisÃ£o)
 		
 		
-		// Operadores relacionais
+//		Operadores relacionais
 //		>  maior 
 //		>= maior ou igual 
 		
@@ -26,18 +26,16 @@ public class ControleDeFluxo {
 		
 		
 
-//		if (expressão booleana) {
-		
-//		    // bloco de código 1
-		
-//		} else if (expressão bolena) {
-//		    // bloco de código 2
+//		if (expressÃ£o booleana) {		
+//		    // bloco de cÃ³digo 1		
+//		} else if (expressÃ£o bolena) {
+//		    // bloco de cÃ³digo 2
 //		} else {
-//			
+//			// bloco de cÃ³digo 3
 //		}
 		
 		// if ternario         true       false  
-//		(expressão booleana) ? código 1 : código 2;
+//		(expressÃ£o booleana) ? cÃ³digo 1 : cÃ³digo 2;
 
 		int a, b, c;
 		a = 10;
@@ -46,11 +44,11 @@ public class ControleDeFluxo {
 		
 		
 		if (a > b) {
-			System.out.println("A é maior do que B");
+			System.out.println("A ï¿½ maior do que B");
 		} else if (a > c) {
-			System.out.println("A é maior do que C");
+			System.out.println("A ï¿½ maior do que C");
 		}else {
-			System.out.println("A é menor do que B ou C");
+			System.out.println("A ï¿½ menor do que B ou C");
 		}	
 		
 
@@ -59,7 +57,6 @@ public class ControleDeFluxo {
 		
 		if(numero % 2 == 0) {
 			parOUimpar = "par";
-//			c = numero;
 		} else {
 			parOUimpar = "impar";
 		}
@@ -67,10 +64,10 @@ public class ControleDeFluxo {
 		System.out.println(parOUimpar);
 		
 		
-//		operadores de lógicos
+//		operadores lÃ³gicos
 //		
-//		&&  - Utilizado quando desejamos que as duas expressões sejam verdadeiras.
-//		|| - Utilizado quando precisamos que pelo meno um das expressões seja verdadeira.
+//		&&  - Utilizado quando desejamos que as duas expressï¿½es sejam verdadeiras.
+//		||  - Utilizado quando precisamos que pelo meno um das expressÃµes seja verdadeira.
 		
 		
 		if((a > b) || (a > c)) {
@@ -78,42 +75,41 @@ public class ControleDeFluxo {
 		}
 		
 		
-		System.out.println("false && true = " + (primCondicao(false) && segCondicao(true)) + " - sem teste da segunda condição.");
+		System.out.println("false && true = " + (primCondicao(false) && segCondicao(true)) + " - sem teste da segunda condiï¿½ï¿½o.");
 
         System.out.println();
 
         System.out.println("false & true = " +
                 (primCondicao(false) & segCondicao(true)) +
-                " - com teste da segunda condição.");
+                " - com teste da segunda condiï¿½ï¿½o.");
 
         System.out.println();
 
         System.out.println("true || false = " +
             (primCondicao(true) || segCondicao(false)) +
-            " - sem teste da segunda condição.");
+            " - sem teste da segunda condiï¿½ï¿½o.");
 
         System.out.println();
 
         System.out.println("true | false = " +
                 (primCondicao(true) | segCondicao(false)) +
-                " - com teste da segunda condição.");
+                " - com teste da segunda condiï¿½ï¿½o.");
 
     }
 	
-//	modificadorDeAcesso tipo_retorno identificador/nome ([argumentos]) {
-//
-//		//Corpo do método
-//
-//		}
+//	modificadorDeAcesso tipo_retorno identificador/nome ([argumentos]) {/
+//		//Corpo do metodo
+//	}
 
     private static boolean primCondicao(boolean retorno){
-        System.out.println("Executou o teste da primeira condição");
+        System.out.println("Executou o teste da primeira condiï¿½ï¿½o");
         return retorno;
     }
 
     private static boolean segCondicao(boolean retorno){
-        System.out.println("Executou o teste da segunda condição");
+        System.out.println("Executou o teste da segunda condiï¿½ï¿½o");
         return retorno;
     }
 
 }
+

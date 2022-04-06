@@ -4,8 +4,8 @@ public class ControleDeFluxo2 {
 
 	public static void main(String[] args) {
 
-//		for(express„o1; express„o2; express„o3) {
-//			bloco de instruÁıes;
+//		for(express√£o1; express√£o2; express√£o3) {
+//			bloco de instru√ß√µes;
 //		}
 
 		for (int i = 0; i < 5; i++) {
@@ -17,8 +17,8 @@ public class ControleDeFluxo2 {
 		  System.out.println(i);
 		}
 
-//		while (condiÁ„o) {
-//			bloco de instruÁıes;
+//		while (condi√ß√£o) {
+//			bloco de instru√ß√µes;
 //		}
 		
 		int i = 0;
@@ -28,9 +28,9 @@ public class ControleDeFluxo2 {
 		}
 
 //		do {
-//		bloco de instruÁıes;
+//			bloco de instru√ß√µes;
 //		}
-//		while (condiÁ„o);
+//		while (condi√ß√£o);
 		
 		int j = 1;
 		do{
@@ -39,3 +39,4 @@ public class ControleDeFluxo2 {
 	}
 
 }
+
