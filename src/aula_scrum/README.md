@@ -53,4 +53,4 @@ Esse é o momento de avaliar os pontos positivos, de melhoria e os planos de aç
 
 ---
 
-Todos os conceitos foram retirados do material de apoio da [Aula sobre Scrum](../scrum/Aula%20Scrum.pdf).
+Todos os conceitos foram retirados do material de apoio da [Aula sobre Scrum](../aula_scrum/Aula%20Scrum.pdf).
