@@ -63,6 +63,8 @@ Até o momento todas as atividades estão sendo reproduzidas sobre o console da 
 
 ✅ [Aula Scrum](../../tree/main/src/aula_scrum/)
 
+✅ [Aula Lógica de Programação](../../tree/main/src/aula_logica_programacao/)
+
 ✅ [Aula Java - História da Linguagem](../../tree/main/src/aula_historia_java/)
 
 ⬜ Em desenvolvimento...

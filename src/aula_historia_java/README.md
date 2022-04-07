@@ -88,4 +88,4 @@ Após o obstáculo, vários nomes foram cogitados: Neon, DNA, Ruby… e, finalme
 
 ---
 
-Todos os conceitos foram retirados do material de apoio da [Aula sobre História Java](../scrum/Java-Historia%20da%20linguagem.pdf).
+Todos os conceitos foram retirados do material de apoio da [Aula sobre História Java](../aula_historia_java/Java-Historia%20da%20linguagem.pdf).
