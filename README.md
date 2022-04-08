@@ -35,8 +35,8 @@ Este treinamento tem como foco principal capacitar o aluno na linguagem de Back-
 
 - Metodologia Scrum - 1h
 - Lógica de programação - 2h
-- Introdução ao Java - 2h
 - Introdução ao Git - 1h
+- Introdução ao Java - 2h
 - Orientação a objetos - 16h
 - Encapsulamento - 8h
 - Operadores - 8h
@@ -66,6 +66,8 @@ Até o momento todas as atividades estão sendo reproduzidas sobre o console da 
 ✅ [Aula Lógica de Programação](../../tree/main/src/aula_logica_programacao/)
 
 ✅ [Aula Java - História da Linguagem](../../tree/main/src/aula_historia_java/)
+
+✅ [Aula Git](../../tree/main/src/aula_git/)
 
 ⬜ Em desenvolvimento...
 
