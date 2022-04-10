@@ -71,6 +71,8 @@ Até o momento todas as atividades estão sendo reproduzidas sobre o console da 
 
 ✅ [Aula Introdução e Estruturas Java](../../tree/main/src/aula_introducao/)
 
+✅ [Aula Programação Orientada a Objetos](../../tree/main/src/aula_poo/)
+
 ⬜ Em desenvolvimento...
 
 <br>
