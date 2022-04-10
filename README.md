@@ -36,6 +36,7 @@ Este treinamento tem como foco principal capacitar o aluno na linguagem de Back-
 - Metodologia Scrum - 1h
 - Lógica de programação - 2h
 - Introdução ao Git - 1h
+- Gitflow - 3h
 - Introdução ao Java - 2h
 - Operadores - 8h
 - Controle de Fluxo - 4h
@@ -47,10 +48,9 @@ Este treinamento tem como foco principal capacitar o aluno na linguagem de Back-
 - Desenvolvimento Avançado - 12h
 - Tratamento de Exceções - 4h
 - Testes - 6h
-- Gitflow - 3h
-- Banco de dados - 2h30
 - JDBC - 4h
 - JPA - 4h
+- Banco de dados - 2h30
 - NoSQL - 1h30
 - Soft Skills - 5h
 - Mentoria - dúvidas - 8h
@@ -72,6 +72,8 @@ Até o momento todas as atividades estão sendo reproduzidas sobre o console da 
 ✅ [Aula Introdução e Estruturas Java](../../tree/main/src/aula_introducao/)
 
 ✅ [Aula Programação Orientada a Objetos](../../tree/main/src/aula_poo/)
+
+✅ [Aula Classes e Métodos](../../tree/main/src/aula_classes_metodos/)
 
 ⬜ Em desenvolvimento...
 
