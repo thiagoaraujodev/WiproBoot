@@ -1,3 +1,0 @@
-#WIPRO STORE
-
-em desenvolvimento...

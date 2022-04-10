@@ -1,11 +1,11 @@
-package desafio_01_grupo;
+package aula_introducao.desafio;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class CarrinhoDeCompras {
+public class Shop_Versao_Grupo {
 	//ctrl+f = look for uses of the variable || mouse over the variable, right click, refactor, rename 
-	//ctrl. vai até a variável em qualquer ponto
+	//ctrl. vai atï¿½ a variï¿½vel em qualquer ponto
 	//System.out.println("Hello World");//write sos as a shortcut
 	//ctrl+b == clean the line			
 	
@@ -22,7 +22,7 @@ public class CarrinhoDeCompras {
 		Scanner leia = new Scanner(System.in);
 		
 		int[] codigoProduto = {1,2,3,4,5,6,7,8,9,10};
-		String[] nomeProduto = {"Leite","Cereal","Arroz","Atum","Feijão","Azeite","Óleo","Sabão","Sal","Açucar"};
+		String[] nomeProduto = {"Leite","Cereal","Arroz","Atum","Feijï¿½o","Azeite","ï¿½leo","Sabï¿½o","Sal","Aï¿½ucar"};
 		int[] quantidadeProduto = {10,10,10,10,10,10,10,10,10,10};
 		Double[] precoProduto = {4.57,3.02,9.43,3.55,6.55,4.55,7.33,1.99,3.82,4.29};
 		Integer[][] carrinho = new Integer[10][2];
@@ -37,20 +37,20 @@ public class CarrinhoDeCompras {
 			System.out.println("*******************************************************************");
 			System.out.println("                            WIPRO STORE                         ");
 			System.out.println("*******************************************************************");
-			System.out.println("CÓDIGO         PRODUTO         QTD.PRODUTOS             PREÇO UNIT");
+			System.out.println("Cï¿½DIGO         PRODUTO         QTD.PRODUTOS             PREï¿½O UNIT");
 				
 				for(int i = 0; i < codigoProduto.length;i++) {
 					System.out.println(codigoProduto[i]+"\t\t"+nomeProduto[i]+"\t\t"+quantidadeProduto[i]+"\t\t\t"+precoProduto[i]);
 				}
 			System.out.println("*******************************************************************");
 			
-			System.out.println("Olá! Digite o código do produto desejado:");
+			System.out.println("Olï¿½! Digite o cï¿½digo do produto desejado:");
 			codigoProdutoUsuario = leia.nextInt();
 			System.out.println("Insira a quantidade desejada do produto:");
 			quantidadeProdutoUsuario = leia.nextInt();
 			
 			if(quantidadeProdutoUsuario > quantidadeProduto[codigoProdutoUsuario-1] ) {
-				System.out.println("\nQuantidade não disponível, favor informar uma quantidade menor ou igual que "+quantidadeProduto[codigoProdutoUsuario-1]+"\n");
+				System.out.println("\nQuantidade nï¿½o disponï¿½vel, favor informar uma quantidade menor ou igual que "+quantidadeProduto[codigoProdutoUsuario-1]+"\n");
 			}else {
 				
 				quantidadeProduto[codigoProdutoUsuario-1]-= quantidadeProdutoUsuario;
@@ -76,7 +76,7 @@ public class CarrinhoDeCompras {
 				}
 				
 				//System.out.println("Produto: "+nomeProduto[codigoProdutoUsuario-1]+", quantidade atual:"+quantidadeProduto[codigoProdutoUsuario-1]);
-				System.out.println("Deseja continuar a sua compra? SIM = 0 , NÃO = 1");
+				System.out.println("Deseja continuar a sua compra? SIM = 0 , Nï¿½O = 1");
 				choice = leia.nextInt();
 			}		
 			
@@ -87,7 +87,7 @@ public class CarrinhoDeCompras {
 		}while(continuarCompra == 0);
 		 
 		 System.out.println("\nITENS DO CARRINHO:");
-		 System.out.println("Nome                      Qtde. no carrinho              Preço unit.(R$)        Preço Total (R$)");
+		 System.out.println("Nome                      Qtde. no carrinho              Preï¿½o unit.(R$)        Preï¿½o Total (R$)");
 		 
 		 
 		 for(int i = 0; i < carrinho.length; i++) {
@@ -105,11 +105,11 @@ public class CarrinhoDeCompras {
 		 System.out.println("\nO valor total da compra com imposto de 9%: R$"+precoComImposto);
 		
 		 do {
-			 System.out.println("Opções de pagamento:\n");
-			 System.out.println("[1]À vista em dinheiro ou cartão MASTERCARD, recebe 20% de desconto,"+
-				 			"\n[2]À vista no cartão de crédito, recebe 15% de desconto,"+
-				            "\n[3]Em duas vezes, preço normal de etiqueta sem juros,"+
-				 			"\n[4]Em três vezes, preço normal de etiqueta mais juros de 10%\n");
+			 System.out.println("Opï¿½ï¿½es de pagamento:\n");
+			 System.out.println("[1]ï¿½ vista em dinheiro ou cartï¿½o MASTERCARD, recebe 20% de desconto,"+
+				 			"\n[2]ï¿½ vista no cartï¿½o de crï¿½dito, recebe 15% de desconto,"+
+				            "\n[3]Em duas vezes, preï¿½o normal de etiqueta sem juros,"+
+				 			"\n[4]Em trï¿½s vezes, preï¿½o normal de etiqueta mais juros de 10%\n");
 			 System.out.println("qual seria a forma de pagamento?");
 			 formaDePagamento = leia.nextInt();
 		 
@@ -153,15 +153,15 @@ public class CarrinhoDeCompras {
 				 sParceladoPrecoAbsolutoComDescontoAserPago =  duasCasas.format(precoAbsolutoComDescontoAserPago / 3);				 
 				 parcelado = "parcelado em 3x vezes de "+sParceladoPrecoAbsolutoComDescontoAserPago;
 			 }else {
-				 System.out.println("Digite uma opção válida");
+				 System.out.println("Digite uma opï¿½ï¿½o vï¿½lida");
 			 }
 		 }while(formaDePagamento > 4 || formaDePagamento <= 0);
 		 
 		 
-		 System.out.println("\nWipro STORE\nRua dos Bôbos, n°0 - Mercadinho - LTDA\nCNPJ: 1234554321-00\n");
+		 System.out.println("\nWipro STORE\nRua dos Bï¿½bos, nï¿½0 - Mercadinho - LTDA\nCNPJ: 1234554321-00\n");
 		 System.out.println("                           Nota Fiscal                                    ");
 		 System.out.println("*************************************************************************************************");
-		 System.out.println("Nome                      Qtde. no carrinho              Preço unit.(R$)        Preço Total (R$)");
+		 System.out.println("Nome                      Qtde. no carrinho              Preï¿½o unit.(R$)        Preï¿½o Total (R$)");
 		 
 		 
 		 
@@ -187,11 +187,11 @@ public class CarrinhoDeCompras {
 		 if(parcelado=="") {
 		 System.out.println("DESCONTO NA COMPRA: R$"+ sDescontoNaCompra);
 		 System.out.println("VALOR TOTAL A SER PAGO: R$"+sPrecoAbsolutoComDescontoAserPago);
-		 System.out.println("VALOR TRIBUTÁRIO:  R$"+sValorTributario);
+		 System.out.println("VALOR TRIBUTï¿½RIO:  R$"+sValorTributario);
 		 }else {
 			 System.out.println("DESCONTO NA COMPRA: R$0,00");
 			 System.out.println("VALOR TOTAL A SER PAGO: R$"+sPrecoAbsolutoComDescontoAserPago+" "+parcelado);
-			 System.out.println("VALOR TRIBUTÁRIO:  R$"+sValorTributario);
+			 System.out.println("VALOR TRIBUTï¿½RIO:  R$"+sValorTributario);
 		 }
 		 
 		 leia.close();		
@@ -200,12 +200,12 @@ public class CarrinhoDeCompras {
 	
 	public static void main(String[] args) {
 		
-		//instanciando os exercícios
+		//instanciando os exercï¿½cios
 		//Exercicio1 exercise1 = new Exercicio1();
 		//Exercicio2 exercise2 = new Exercicio2();
 		//Exercicio3 exercise3 = new Exercicio3();
 		
-		//chamando suas funções e métodos para exibir no console 
+		//chamando suas funï¿½ï¿½es e mï¿½todos para exibir no console 
 	    //System.out.println(exercise1.ex1());
 	    //System.out.println(exercise2.ex2());
 	    //exercise3.ex3();	 

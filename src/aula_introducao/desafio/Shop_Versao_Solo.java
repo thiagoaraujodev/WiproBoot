@@ -1,14 +1,14 @@
-package desafio_01;
+package aula_introducao.desafio;
 
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class CarrinhoDeCompras {
+public class Shop_Versao_Solo {
 
 	public static void main(String[] args) {		
 
-		String[] nomeDoProduto = { "Leite", "Ceral", "Arroz", "Atum", "Feij„o",   
-								   "Azeite", "”leo", "Sab„o", "Sal", "AÁucar" };
+		String[] nomeDoProduto = { "Leite", "Ceral", "Arroz", "Atum", "Feij√£o",   
+								   "Azeite", "√ìleo", "Sab√£o", "Sal", "A√ßucar" };
 		double[] precoDoProduto = { 4.57, 3.02, 9.43, 3.55, 6.55, 4.55, 7.33, 1.99, 3.82, 4.29 };
 		int[] estoqueDoProduto = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 };
 		int[] carrinho = new int[10];
@@ -26,26 +26,26 @@ public class CarrinhoDeCompras {
 				System.out.println("\n===================================================================");
 				System.out.println("\t\t\tWIPRO STORE");
 				System.out.println("===================================================================");
-				System.out.println("\nC”DIGO\t\tPRODUTO\t\tQTND. PRODUTOS\t\tPRE«O UNIT.\n");
+				System.out.println("\nC√ìDIGO\t\tPRODUTO\t\tQTND. PRODUTOS\t\tPRE√áO UNIT.\n");
 				
 				for (int i = 0; i < nomeDoProduto.length; i++) {
 					System.out.println((i + 1) + "\t\t" + nomeDoProduto[i] + "\t\t     " + estoqueDoProduto[i] + "\t\t\t R$  "
 							+ formatarValorBR.format(precoDoProduto[i]));
 				}
 	
-				System.out.print("\nOl·! Digite o cÛdigo do produto desejado: ");
+				System.out.print("\nOl√°! Digite o c√≥digo do produto desejado: ");
 				produtoInformado = entradaDoConsole.nextInt()-1;
 				
 				while(produtoInformado < 0 || produtoInformado >= nomeDoProduto.length 
 										   || estoqueDoProduto[produtoInformado] == 0) {
 					
 					if(produtoInformado < 0 || produtoInformado >= nomeDoProduto.length) {
-						System.out.println("Produto n„o encontrado!");
+						System.out.println("Produto n√£o encontrado!");
 					}
 					else {
-						System.out.println("No momento n„o temos este produto no estoque!");
+						System.out.println("No momento n√£o temos este produto no estoque!");
 					}
-					System.out.print("\nPor favor, digite o cÛdigo do produto desejado: ");
+					System.out.print("\nPor favor, digite o c√≥digo do produto desejado: ");
 					produtoInformado = entradaDoConsole.nextInt()-1;
 				}
 				
@@ -57,7 +57,7 @@ public class CarrinhoDeCompras {
 						System.out.print("Por favor, informe uma quantidade maior que 0.\n");
 					}
 					else {
-						System.out.print("Quantidade indisponÌvel no estoque, digite novamente...\n");
+						System.out.print("Quantidade indispon√≠vel no estoque, digite novamente...\n");
 					}
 					System.out.print("Insira a quantidade desejada do produto: ");
 					quantidadeInformada = entradaDoConsole.nextInt();
@@ -83,7 +83,7 @@ public class CarrinhoDeCompras {
 			System.out.println("\n===================================================================");
 			System.out.println("\t\t\tITENS NO CARRINHO");
 			System.out.println("===================================================================");
-			System.out.println("Nome\t  Qtde. no carrinho\tPreÁo unit.(R$)\t  PreÁo Total (R$)");
+			System.out.println("Nome\t  Qtde. no carrinho\tPre√ßo unit.(R$)\t  Pre√ßo Total (R$)");
 			
 			for(int i = 0; i < carrinho.length;i++) {
 				if(carrinho[i] > 0) {
@@ -101,10 +101,10 @@ public class CarrinhoDeCompras {
 			stop: while(true) {
 				
 				System.out.println("O valor total da compra com imposto de 9%: R$ " + formatarValorBR.format(totalCarrinho));
-				System.out.println("OpÁıes de Pagamento:\n");			
-				System.out.println("[1] ¿ vista em dinheiro, pix ou cart„o MASTERCARD, 20% de desconto.");
-				System.out.println("[2] ¿ vista no cart„o de crÈdito, recebe 10% de desconto.");
-				System.out.println("[3] Parcelado em atÈ 3 vezes, preÁo normal de etiqueta sem juros.\n");
+				System.out.println("Op√ß√µes de Pagamento:\n");			
+				System.out.println("[1]√Ä vista em dinheiro, pix ou cart√£o MASTERCARD, 20% de desconto.");
+				System.out.println("[2]√Ä vista no cart√£o de credito, recebe 10% de desconto.");
+				System.out.println("[3] Parcelado em at√© 3 vezes, pre√ßo normal de etiqueta sem juros.\n");
 				
 				System.out.print("Qual seria a forma de pagamento? ");
 				formaPagamento = entradaDoConsole.nextInt();			
@@ -115,20 +115,20 @@ public class CarrinhoDeCompras {
 					case 3  : break stop;
 					default : 
 						System.out.println("\n===================================================================");
-						System.out.println("Forma de pagamento indisponÌvel, digite novamente...\n");
+						System.out.println("Forma de pagamento indispon√≠vel, digite novamente...\n");
 				};
 			}
 			
 			System.out.println("\n===================================================================");
 			System.out.println("WIPRO STORE");
-			System.out.println("Rua dos BÙbos, n∫0 - Mercadinho - LTDA");
+			System.out.println("Rua dos B√¥bos, n¬∫0 - Mercadinho - LTDA");
 			System.out.println("CNPJ: 01.234.567.0089-00\n");
 			
 			System.out.println("===================================================================");
 			System.out.println("\t\t\t   NOTA FISCAL");
 			System.out.println("===================================================================");
 			
-			System.out.println("PRODUTO\t  QTND. PRODUTO\t\tPRE«O UNIT.(R$)\t   PRE«O TOTAL (R$)");		
+			System.out.println("PRODUTO\t  QTND. PRODUTO\t\tPRE√áO UNIT.(R$)\t   PRE√áO TOTAL (R$)");		
 			for(int i = 0; i < carrinho.length;i++) {
 				if(carrinho[i] > 0) {
 					System.out.println(nomeDoProduto[i]  + "\t\t" + carrinho[i] + "\t\t     " + formatarValorBR.format(precoDoProduto[i]) + "\t\t "
@@ -143,7 +143,7 @@ public class CarrinhoDeCompras {
 				totalCarrinho -= descontoNoPagamento;
 			}
 			System.out.println("VALOR TOTAL A SER PAGO: R$ " + formatarValorBR.format(totalCarrinho));
-			System.out.println("VALOR TRIBUT¡RIO: R$ " + formatarValorBR.format(totalCarrinho*0.09));
+			System.out.println("VALOR TRIBUT√ÅRIO: R$ " + formatarValorBR.format(totalCarrinho*0.09));
 			System.out.println("\n\n===================================================================\n\n");
 			
 			System.out.println("Caso deseje efetuar uma nova compra digite [S].");

@@ -1,8 +1,8 @@
-//3. FaÁa um programa para receber os nomes de 4 candidatos a lÌder de uma turma, em seguida 
-//receber os votos dos alunos existentes na sala, e ao final mostrar o total de votos de cada 
-//candidato e ainda o candidato vencedor da eleiÁ„o.
+//3. Fa√ßa um programa para receber os nomes de 4 candidatos a l√≠der de uma turma, em seguida
+//receber os votos dos alunos existentes na sala, e ao final mostrar o total de votos de cada
+//candidato e ainda o candidato vencedor da elei√ß√£o.
 
-package exercicios;
+package aula_introducao.exercicios;
 
 import java.util.Scanner;
 
@@ -28,7 +28,7 @@ public class CandidatosEleicao {
 			System.out.println("Para votar em " + nomeDosCandidatos[1].toString() + " digite: 2");
 			System.out.println("Para votar em " + nomeDosCandidatos[2].toString() + " digite: 3");
 			System.out.println("Para votar em " + nomeDosCandidatos[3].toString() + " digite: 4");	
-			System.out.println("Para encerrar a votaÁ„o digite: 0\n");
+			System.out.println("Para encerrar a vota√ß√£o digite: 0\n");
 			
 			numeroDoVoto = entradaDoConsole.nextInt();
 			
@@ -39,7 +39,7 @@ public class CandidatosEleicao {
 				desejaVotar = false;
 			}
 			else {
-				System.out.println("Por favor, informe um numero v·lido.\n");
+				System.out.println("Por favor, informe um numero v√°lido.\n");
 			}			
 		}	
 		
@@ -58,7 +58,7 @@ public class CandidatosEleicao {
 			}
 		}
 		if(houveEmpate) {
-			System.out.println("\nN„o houve vencedor, votaÁ„o empada!");
+			System.out.println("\nN√£o houve vencedor, vota√ß√£o empada!");
 		}
 		else {
 			System.out.println("\nO candidato vencedor foi " + nomeDosCandidatos[candidatoComMaiorVoto].toString());

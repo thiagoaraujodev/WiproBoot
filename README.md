@@ -37,10 +37,10 @@ Este treinamento tem como foco principal capacitar o aluno na linguagem de Back-
 - Lógica de programação - 2h
 - Introdução ao Git - 1h
 - Introdução ao Java - 2h
-- Orientação a objetos - 16h
-- Encapsulamento - 8h
 - Operadores - 8h
 - Controle de Fluxo - 4h
+- Orientação a objetos - 16h
+- Encapsulamento - 8h
 - Arquivos - 8h
 - Coleções - 4h
 - Orientação a Objetos II - 16h
@@ -68,6 +68,8 @@ Até o momento todas as atividades estão sendo reproduzidas sobre o console da 
 ✅ [Aula Java - História da Linguagem](../../tree/main/src/aula_historia_java/)
 
 ✅ [Aula Git](../../tree/main/src/aula_git/)
+
+✅ [Aula Introdução e Estruturas Java](../../tree/main/src/aula_introducao/)
 
 ⬜ Em desenvolvimento...
 

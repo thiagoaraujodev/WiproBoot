@@ -1,8 +1,7 @@
-//2. Faça um programa para receber o nome de um aluno e informar 2 notas, em seguida calcular 
-//a média do aluno e apresentar ao final a média calculada e a situação de Aprovação do aluno. 
-//(aprovado com média >= 6).
+//2. FaÃ§a um programa para receber o nome de um aluno e informar 2 notas, em seguida calcular
+//a mÃ©dia do aluno e apresentar ao final a mÃ©dia calculada e a situaÃ§Ã£o de AprovaÃ§Ã£o do aluno. (aprovado com mÃ©dia >= 6).
 
-package exercicios;
+package aula_introducao.exercicios;
 
 import java.util.Scanner;
 
@@ -25,10 +24,10 @@ public class MediaAluno {
 		calculaMedia = (primeiraNotaDoAluno + segundaNotaDoAluno)/2;
 		
 		if (calculaMedia >= 6) {
-			System.out.println("O aluno " + nomeAluno + ", foi aprovado com média "+ calculaMedia);			
+			System.out.println("O aluno " + nomeAluno + ", foi aprovado com mÃ©dia "+ calculaMedia);			
 		}
 		else {
-			System.out.println("O aluno " + nomeAluno + ", foi reprovado com média "+ calculaMedia);	
+			System.out.println("O aluno " + nomeAluno + ", foi reprovado com mÃ©dia "+ calculaMedia);	
 		}		
 		entradaDoConsole.close();		
 	}
