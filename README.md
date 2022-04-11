@@ -42,8 +42,8 @@ Este treinamento tem como foco principal capacitar o aluno na linguagem de Back-
 - Controle de Fluxo - 4h
 - Orientação a objetos - 16h
 - Encapsulamento - 8h
-- Arquivos - 8h
 - Coleções - 4h
+- Arquivos - 8h
 - Orientação a Objetos II - 16h
 - Desenvolvimento Avançado - 12h
 - Tratamento de Exceções - 4h
@@ -59,7 +59,7 @@ Este treinamento tem como foco principal capacitar o aluno na linguagem de Back-
 
 ## 💻 Atividades
 
-Até o momento todas as atividades estão sendo reproduzidas sobre o console da IDE e para rodar a aplicação faça um clone do projeto e abra na sua plataforma de preferência que tenha suporte ao Java.
+Até o momento todas as atividades estão sendo reproduzidas sobre o console da IDE e para rodar a aplicação faça um clone do projeto e abra na sua plataforma de preferência, e que tenha suporte ao Java.
 
 ✅ [Aula Scrum](../../tree/main/src/aula_scrum/)
 
@@ -74,6 +74,8 @@ Até o momento todas as atividades estão sendo reproduzidas sobre o console da 
 ✅ [Aula Programação Orientada a Objetos](../../tree/main/src/aula_poo/)
 
 ✅ [Aula Classes e Métodos](../../tree/main/src/aula_classes_metodos/)
+
+✅ [Aula Coleções](../../tree/main/src/aula_colecoes/)
 
 ⬜ Em desenvolvimento...
 
